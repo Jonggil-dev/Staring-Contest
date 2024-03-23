@@ -224,42 +224,42 @@
 # 🔧설계
 
 ### 🔧아키텍처 설계
-![architecture drawio](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/98f4f50a-f35b-4da2-9769-3f38a93b5fb6)
+![architecture drawio](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/1f3bc1ee-2ee6-4e57-b823-de518357ae0f)
 
 ### 🔧DB 설계(ERD)
-![erd](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/dcb03a5c-d380-4c80-a765-f568bb5ac6bb)
+![erd](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/86de0972-16f7-4112-83f6-bb5ec0b28378)
 
 # 👀실제 화면
 
 ## 랭킹
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0669b96b-22d9-4d22-a857-668f20316e33" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/bc825f03-727b-4cc6-85e4-82995d9ee5c2" width="30%" height="30%"/>
 
 ## 로비
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/c7f0dbaf-2666-4f59-81c7-a26f3e92449a" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/74b03fd9-47fb-4d5f-86e4-8c7875aaeb2d" width="30%" height="30%"/>
 
 ## 클래식전과 아이템전 중 하나를 선택할 수 있음
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/1214fb03-d95a-465f-850d-058eb8bab3c9" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/8de8d111-d936-4842-984d-766870f58a09" width="30%" height="30%"/>
 
 ## 매칭 찾는 중
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/057c39ab-30d6-44d5-8d39-eab6bb67317d" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/232da25c-038e-40ec-a043-495f64368daf" width="30%" height="30%"/>
 
 ## 매칭성공
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/689584a7-8fc8-4519-94db-380e2bd171cf" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0a346d6e-959e-4f1d-a486-3ef146361014" width="30%" height="30%"/>
 
 ## 게임 준비
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/c78355b1-8d99-4b2a-807a-4b65d3ce4bdd" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/a3a82654-0147-4667-8047-3a923f4df212" width="30%" height="30%"/>
 
 ## 예상 승점
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/3d2daa1d-b403-409e-a948-0901787e4410" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9063532c-38da-4b26-8f0c-eb561e4db7b5" width="30%" height="30%"/>
 
 ## 게임 시작 직전
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ab7943e2-4bb5-4941-b727-b20ff3ccf22e" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/15ee3fa3-ec37-4a87-9e7a-79186b5b96d8" width="30%" height="30%"/>
 
 ## 게임 진행 중
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9448ee33-83ed-4d47-bc69-2288b33ce0b1" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/267949af-7d63-44a0-80c3-53b516033db7" width="30%" height="30%"/>
 
 ## 게임 승리 후의 화면
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/5b7f6f41-68dc-4ce2-9d5e-c714a1d637ea" width="30%" height="30%"/>
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
 
 # EC2 화면 포트
 | **PORT** | **이름** |
