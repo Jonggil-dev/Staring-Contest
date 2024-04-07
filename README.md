@@ -1,48 +1,40 @@
-# 🔍프로젝트 소개
+# 🔍 프로젝트 소개
 
-### 📌서비스 요약
-- 눈(EYE)싸움 게임을 핸드폰에서 즐길 수 있는 서비스
-- 기존의 눈싸움 게임뿐만 아니라 팀 단위의 눈싸움 게임과 방해요소가 추가된 눈싸움 게임도 즐길 수 있음
-###  📌기획 의도
-- 시선공포증에서 유발되는 스트레스를 가벼운 방식으로 해소할 수 있는 앱을 만들고 싶었음
-- 빠르고 케주얼하게 즐길 수 있는 앱을 만들고 싶었음
-### 🖥️기술스택
-#### 🖱FrontEnd
-- vite
-- react
-- tailwindcss
-- mediapipe
+### 1. 서비스 요약
 
-#### 🖱Backend
-- springboot
-- spring-boot-jpa
-- spring security
-- redis
-- mysql
+- 눈(EYE)싸움 게임은 핸드폰에서 즐길 수 있는 새로운 형태의 서비스
+- 기존의 눈싸움 방식에 더해 팀 단위의 경쟁 및 다양한 방해요소(아이템)를 도입하여 플레이어에게 더욱 다채로운 경험을 제공
 
-#### 🖱Web RTC
-- openvidu
+###  2. 기획 의도
+- 본 프로젝트는 시선공포증에서 비롯된 스트레스를 해소하고, 사용자가 빠르고 캐주얼하게 게임을 즐길 수 있는 앱을 목표로 함
 
-#### 🖱CI/CD
-- aws ec2
-- docker
-- nginx
-- jenkins
+### 3. 기술스택
+|   Frontend   |     Backend     | Web RTC  |  CI/CD  |
+| :----------: | :-------------: | :------: | :-----: |
+|     Vite     |   Spring Boot   | OpenVidu | AWS EC2 |
+|    React     | Spring-Boot-JPA |          | Docker  |
+| Tailwind CSS | Spring Security |          |  Nginx  |
+|  MediaPipe   |      Redis      |          | Jenkins |
+|              |      MySQL      |          |         |
 
-### 📌 프로젝트 기간
+### 4. 프로젝트 기간
 - 2024.01.08 ~ 2024.02.16
+
+
 
 #  🙍팀원 소개
 - 이재진: 팀장, 인프라, AI
 - 김지수: 프론트엔드, 디자인, STOMP
 - 심상익: 프론트엔드, Openvidu, 게임 로직
-- 정종길: 프론트엔드, JWT, 게임 로직   
+- 정종길: 프론트엔드, 디자인, 유저 정보/인증 관리, 게임 로직 
 - 장수영: 백엔드, Openvidu, Redis  
 - 조창래: 백엔드, Openvidu, STOMP
 
+
+
 # 👨‍👩‍👧Convention
 
-### 👨‍👩‍👧Git Commit Convention
+### 1. Git Commit Convention
 
 | 커밋 유형 | 의미 |  |
 | ---- | ---- | ---- |
@@ -60,7 +52,7 @@
 | !BREAKING CHANGE | 커다란 API 변경의 경우 |  |
 | !HOTFIX | 급하게 치명적인 버그를 고쳐야 하는 경우 |  |
 
-### 👨‍👩‍👧Git Branch Convention
+### 2. Git Branch Convention
 
 - `develop`에서 각자의 기능 브랜치를 분기
 - `작업종류-기능` 으로 브랜치 만들기: develop-BE-Message, develop-FE-GameLogic
@@ -68,15 +60,18 @@
     - `merge request` 오픈 이벤트 발생 시 EC2에서 빌드, 배포 실행 ⇒ MM으로 결과 알림
 - `merge request` 위 결과에 따라 승인 여부 결정, 필요한 경우 코드 리뷰 및 토의
 - `merge request`가 승인되면 `merge된 master` 브랜치에대하여 다시 EC2에서 빌드, 배포 실행 
-### 👨‍👩‍👧Jira Convention
+### 3. Jira Convention
 협업 및 일정, 업무 관리를 위해 Jira를 이용하였습니다. 매주 월요일 오전 회의에서 한 주동안 진행되어야 할 주 단위 계획을 짜고, 진행할 이슈들을 스프린트를 만들어 등록했습니다. 스프린트는 일주일 단위로 진행하였습니다.
 
 - Epic : 각 기능의 제목으로 설정했습니다: BE - Message
 - story : 담당자와 각 기능의 세부사항을 표기했습니다: \[조창래\] Message - 친구수락
 
-# ✨명세서
 
-### ✨요구사항 명세서
+
+# ✨ 명세서
+
+### 1. 요구사항 명세서
+
 |   |   |   |   |
 |---|---|---|---|
 |요구사항명|우선순위|기능명|처리내용|
@@ -104,7 +99,8 @@
 ||높음|게임 방 초대|1. 방장은 url 주소, QR 코드를 생성해서 초대 가능  <br>2. 온라인인 친구를 선택해서 초대장 보내기 가능|
 |채팅 / 음성|높음|채팅 기능|1. 모든 사람들이 볼 수 있는 일반 채팅 모드  <br>2. 팀끼리만 볼 수 있는 팀 채팅 모드|
 ||보통|채팅 로그|일반 채팅과 팀 채팅, 음성을 저장하고 로그로 볼 수 있음|
-### ✨기능 명세서
+### 2. 기능 명세서
+
 |  |  |  |  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 대분류 | 소분류 | 주기능 | 상세기능(BE) | 상세기능(FE) | 우선순위 | 페이지 |
@@ -182,7 +178,8 @@
 | 랭킹 | 랭킹 조회 | 클래식 랭킹 조회 | 클래식전의 점수별로 상위 100명을 가져옴. 한 페이지당 10명씩 나열. | 로비 -> 랭킹 버튼 클릭 시 -> 랭킹 모달 활성화 -> default(클래식)탭에서 랭킹 확인 | 보통 | 랭킹 보기 - 클래식 |
 |  |  | 아이템전 랭킹 조회 | 아이템전의 점수별로 상위 100명을 가져옴. 한 페이지당 10명씩 나열 | 로비 -> 랭킹 버튼 클릭 시 -> 랭킹 모달 활성화 -> 아이템전탭에서 랭킹 확인 | 보통 | 랭킹 보기 - 아이템 |
 |  |  | 랭킹 조회 | Redis를 사용해 30분마다 랭크 업데이트 |  |  |  |
-### ✨API 명세서
+### 3. API 명세서
+
 |   |   |   |   |   |   |
 |---|---|---|---|---|---|
 |유저|회원가입|POST|/api/user|{  <br>email: "gildong@gmail.com",  <br>password: "1234",  <br>nickname: "gildongnickname",  <br>profileImg: "2"  <br>}|{  <br>email: "gildong@gmail.com",  <br>}|
@@ -221,47 +218,59 @@
 ||시스템 메세지 수락/거절 후 메세지 삭제|DELETE|/api/message/{messageId}|||
 |랭킹 조회|클래식 랭킹 조회|GET|/api/point/rank/classic/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
 ||아이템전 랭킹 조회|GET|/api/point/rank/item/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
-# 🔧설계
+# 🔧 설계
 
-### 🔧아키텍처 설계
+### 1. 아키텍처 설계
+
 ![architecture drawio](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/1f3bc1ee-2ee6-4e57-b823-de518357ae0f)
 
-### 🔧DB 설계(ERD)
+### 2. DB 설계(ERD)
+
 ![erd](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/86de0972-16f7-4112-83f6-bb5ec0b28378)
 
-# 👀실제 화면
+# 👀 실제 화면
 
-## 랭킹
+
+
+
+
+### 랭킹
+
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/bc825f03-727b-4cc6-85e4-82995d9ee5c2" width="30%" height="30%"/>
 
-## 로비
+### 로비
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/74b03fd9-47fb-4d5f-86e4-8c7875aaeb2d" width="30%" height="30%"/>
 
-## 클래식전과 아이템전 중 하나를 선택할 수 있음
+### 클래식전과 아이템전 중 하나를 선택할 수 있음
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/8de8d111-d936-4842-984d-766870f58a09" width="30%" height="30%"/>
 
-## 매칭 찾는 중
+### 매칭 찾는 중
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/232da25c-038e-40ec-a043-495f64368daf" width="30%" height="30%"/>
 
-## 매칭성공
+### 매칭성공
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0a346d6e-959e-4f1d-a486-3ef146361014" width="30%" height="30%"/>
 
-## 게임 준비
+### 게임 준비
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/a3a82654-0147-4667-8047-3a923f4df212" width="30%" height="30%"/>
 
-## 예상 승점
+### 예상 승점
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9063532c-38da-4b26-8f0c-eb561e4db7b5" width="30%" height="30%"/>
 
-## 게임 시작 직전
+### 게임 시작 직전
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/15ee3fa3-ec37-4a87-9e7a-79186b5b96d8" width="30%" height="30%"/>
 
-## 게임 진행 중
+### 게임 진행 중
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/267949af-7d63-44a0-80c3-53b516033db7" width="30%" height="30%"/>
 
-## 게임 승리 후의 화면
+### 게임 승리 후의 화면
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
 
-# EC2 화면 포트
+
+
+
+
+# EC2 포팅 정보
+
 | **PORT** | **이름** |
 | :--: | :--: |
 | 443 | HTTPS |
