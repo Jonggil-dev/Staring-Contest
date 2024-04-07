@@ -232,33 +232,33 @@
 
 
 
-### 랭킹
+### 1. 랭킹
 
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/bc825f03-727b-4cc6-85e4-82995d9ee5c2" width="30%" height="30%"/>
 
-### 로비
+### 2. 로비
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/74b03fd9-47fb-4d5f-86e4-8c7875aaeb2d" width="30%" height="30%"/>
 
-### 클래식전과 아이템전 중 하나를 선택할 수 있음
+### 3. 클래식전과 아이템전 중 하나를 선택할 수 있음
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/8de8d111-d936-4842-984d-766870f58a09" width="30%" height="30%"/>
 
-### 매칭 찾는 중
+### 4. 매칭 찾는 중
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/232da25c-038e-40ec-a043-495f64368daf" width="30%" height="30%"/>
 
-### 매칭성공
+### 5. 매칭성공
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0a346d6e-959e-4f1d-a486-3ef146361014" width="30%" height="30%"/>
 
-### 게임 준비
+### 6. 게임 준비
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/a3a82654-0147-4667-8047-3a923f4df212" width="30%" height="30%"/>
 
-### 예상 승점
+### 7. 예상 승점
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9063532c-38da-4b26-8f0c-eb561e4db7b5" width="30%" height="30%"/>
 
-### 게임 시작 직전
+### 8. 게임 시작 직전
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/15ee3fa3-ec37-4a87-9e7a-79186b5b96d8" width="30%" height="30%"/>
 
-### 게임 진행 중
+### 9. 게임 진행 중
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/267949af-7d63-44a0-80c3-53b516033db7" width="30%" height="30%"/>
 
-### 게임 승리 후의 화면
+### 10. 게임 승리 후의 화면
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
