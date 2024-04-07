@@ -1,5 +1,18 @@
 # 🚀눈 깜빡할 새 프로젝트
 
+### 1. 프로젝트 기간
+
+- 2024.01.08(월) ~ 2024.02.16(금)
+
+### 2. 팀원 소개
+
+- 이재진: 팀장, 인프라, AI
+- 김지수: 프론트엔드, 디자인, STOMP
+- 심상익: 프론트엔드, Openvidu, 게임 로직
+- 정종길: 프론트엔드, 디자인, 유저 정보/인증 관리, 게임 로직 
+- 장수영: 백엔드, Openvidu, Redis  
+- 조창래: 백엔드, Openvidu, STOMP
+
 
 
 # 🔍 프로젝트 소개
@@ -21,54 +34,65 @@
 |  MediaPipe   |      Redis      |          | Jenkins |
 |              |      MySQL      |          |         |
 
-### 4. 프로젝트 기간
-- 2024.01.08 ~ 2024.02.16
+
+
+# 👀 게임 화면
 
 
 
-#  🙍팀원 소개
-- 이재진: 팀장, 인프라, AI
-- 김지수: 프론트엔드, 디자인, STOMP
-- 심상익: 프론트엔드, Openvidu, 게임 로직
-- 정종길: 프론트엔드, 디자인, 유저 정보/인증 관리, 게임 로직 
-- 장수영: 백엔드, Openvidu, Redis  
-- 조창래: 백엔드, Openvidu, STOMP
+
+
+### 1. 랭킹
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/bc825f03-727b-4cc6-85e4-82995d9ee5c2" width="30%" height="30%"/>
+
+### 2. 로비
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/74b03fd9-47fb-4d5f-86e4-8c7875aaeb2d" width="30%" height="30%"/>
+
+### 3. 클래식전과 아이템전 중 하나를 선택할 수 있음
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/8de8d111-d936-4842-984d-766870f58a09" width="30%" height="30%"/>
+
+### 4. 매칭 찾는 중
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/232da25c-038e-40ec-a043-495f64368daf" width="30%" height="30%"/>
+
+### 5. 매칭성공
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0a346d6e-959e-4f1d-a486-3ef146361014" width="30%" height="30%"/>
+
+### 6. 게임 준비
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/a3a82654-0147-4667-8047-3a923f4df212" width="30%" height="30%"/>
+
+### 7. 예상 승점
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9063532c-38da-4b26-8f0c-eb561e4db7b5" width="30%" height="30%"/>
+
+### 8. 게임 시작 직전
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/15ee3fa3-ec37-4a87-9e7a-79186b5b96d8" width="30%" height="30%"/>
+
+### 9. 게임 진행 중
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/267949af-7d63-44a0-80c3-53b516033db7" width="30%" height="30%"/>
+
+### 10. 게임 승리 후의 화면
+
+<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
 
 
 
-# 👨‍👩‍👧Convention
+# 🔧 설계
 
-### 1. Git Commit Convention
+### 1. 아키텍처 설계
 
-| 커밋 유형 | 의미 |  |
-| ---- | ---- | ---- |
-| Feat | 새로운 기능 추가 |  |
-| Fix | 버그 수정 |  |
-| Docs | 문서 수정 |  |
-| Style | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |  |
-| Refactor | 코드 리팩토링 |  |
-| Test | 테스트 코드, 리팩토링 테스트 코드 추가 |  |
-| Chore | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore |  |
-| Design | CSS 등 사용자 UI 디자인 변경 |  |
-| Comment | 필요한 주석 추가 및 변경 |  |
-| Rename | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우 |  |
-| Remove | 파일을 삭제하는 작업만 수행한 경우 |  |
-| !BREAKING CHANGE | 커다란 API 변경의 경우 |  |
-| !HOTFIX | 급하게 치명적인 버그를 고쳐야 하는 경우 |  |
+![architecture drawio](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/1f3bc1ee-2ee6-4e57-b823-de518357ae0f)
 
-### 2. Git Branch Convention
+### 2. DB 설계(ERD)
 
-- `develop`에서 각자의 기능 브랜치를 분기
-- `작업종류-기능` 으로 브랜치 만들기: develop-BE-Message, develop-FE-GameLogic
-- 해당 기능의 브랜치에 작업이 완료 되면 해당 브랜치를 원격 저장소에 `push`하고 git Lab 페이지에서 `merge request(source : 본인 기능 브랜치, target : master)`(로컬에서 그냥 `merge` X)
-    - `merge request` 오픈 이벤트 발생 시 EC2에서 빌드, 배포 실행 ⇒ MM으로 결과 알림
-- `merge request` 위 결과에 따라 승인 여부 결정, 필요한 경우 코드 리뷰 및 토의
-- `merge request`가 승인되면 `merge된 master` 브랜치에대하여 다시 EC2에서 빌드, 배포 실행 
-### 3. Jira Convention
-협업 및 일정, 업무 관리를 위해 Jira를 이용하였습니다. 매주 월요일 오전 회의에서 한 주동안 진행되어야 할 주 단위 계획을 짜고, 진행할 이슈들을 스프린트를 만들어 등록했습니다. 스프린트는 일주일 단위로 진행하였습니다.
-
-- Epic : 각 기능의 제목으로 설정했습니다: BE - Message
-- story : 담당자와 각 기능의 세부사항을 표기했습니다: \[조창래\] Message - 친구수락
+![erd](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/86de0972-16f7-4112-83f6-bb5ec0b28378)
 
 
 
@@ -219,49 +243,40 @@
 ||시스템 메세지 수락/거절 후 메세지 삭제|DELETE|/api/message/{messageId}|||
 |랭킹 조회|클래식 랭킹 조회|GET|/api/point/rank/classic/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
 ||아이템전 랭킹 조회|GET|/api/point/rank/item/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
-# 🔧 설계
-
-### 1. 아키텍처 설계
-
-![architecture drawio](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/1f3bc1ee-2ee6-4e57-b823-de518357ae0f)
-
-### 2. DB 설계(ERD)
-
-![erd](https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/86de0972-16f7-4112-83f6-bb5ec0b28378)
-
-# 👀 실제 화면
 
 
+# 👨‍👩‍👧Convention
 
+### 1. Git Commit Convention
 
+| 커밋 유형        | 의미                                                         |      |
+| ---------------- | ------------------------------------------------------------ | ---- |
+| Feat             | 새로운 기능 추가                                             |      |
+| Fix              | 버그 수정                                                    |      |
+| Docs             | 문서 수정                                                    |      |
+| Style            | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |      |
+| Refactor         | 코드 리팩토링                                                |      |
+| Test             | 테스트 코드, 리팩토링 테스트 코드 추가                       |      |
+| Chore            | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore           |      |
+| Design           | CSS 등 사용자 UI 디자인 변경                                 |      |
+| Comment          | 필요한 주석 추가 및 변경                                     |      |
+| Rename           | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우          |      |
+| Remove           | 파일을 삭제하는 작업만 수행한 경우                           |      |
+| !BREAKING CHANGE | 커다란 API 변경의 경우                                       |      |
+| !HOTFIX          | 급하게 치명적인 버그를 고쳐야 하는 경우                      |      |
 
-### 1. 랭킹
+### 2. Git Branch Convention
 
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/bc825f03-727b-4cc6-85e4-82995d9ee5c2" width="30%" height="30%"/>
+- `develop`에서 각자의 기능 브랜치를 분기
+- `작업종류-기능` 으로 브랜치 만들기: develop-BE-Message, develop-FE-GameLogic
+- 해당 기능의 브랜치에 작업이 완료 되면 해당 브랜치를 원격 저장소에 `push`하고 git Lab 페이지에서 `merge request(source : 본인 기능 브랜치, target : master)`(로컬에서 그냥 `merge` X)
+  - `merge request` 오픈 이벤트 발생 시 EC2에서 빌드, 배포 실행 ⇒ MM으로 결과 알림
+- `merge request` 위 결과에 따라 승인 여부 결정, 필요한 경우 코드 리뷰 및 토의
+- `merge request`가 승인되면 `merge된 master` 브랜치에대하여 다시 EC2에서 빌드, 배포 실행 
 
-### 2. 로비
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/74b03fd9-47fb-4d5f-86e4-8c7875aaeb2d" width="30%" height="30%"/>
+### 3. Jira Convention
 
-### 3. 클래식전과 아이템전 중 하나를 선택할 수 있음
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/8de8d111-d936-4842-984d-766870f58a09" width="30%" height="30%"/>
+협업 및 일정, 업무 관리를 위해 Jira를 이용하였습니다. 매주 월요일 오전 회의에서 한 주동안 진행되어야 할 주 단위 계획을 짜고, 진행할 이슈들을 스프린트를 만들어 등록했습니다. 스프린트는 일주일 단위로 진행하였습니다.
 
-### 4. 매칭 찾는 중
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/232da25c-038e-40ec-a043-495f64368daf" width="30%" height="30%"/>
-
-### 5. 매칭성공
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/0a346d6e-959e-4f1d-a486-3ef146361014" width="30%" height="30%"/>
-
-### 6. 게임 준비
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/a3a82654-0147-4667-8047-3a923f4df212" width="30%" height="30%"/>
-
-### 7. 예상 승점
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/9063532c-38da-4b26-8f0c-eb561e4db7b5" width="30%" height="30%"/>
-
-### 8. 게임 시작 직전
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/15ee3fa3-ec37-4a87-9e7a-79186b5b96d8" width="30%" height="30%"/>
-
-### 9. 게임 진행 중
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/267949af-7d63-44a0-80c3-53b516033db7" width="30%" height="30%"/>
-
-### 10. 게임 승리 후의 화면
-<img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
+- Epic : 각 기능의 제목으로 설정했습니다: BE - Message
+- story : 담당자와 각 기능의 세부사항을 표기했습니다: \[조창래\] Message - 친구수락
