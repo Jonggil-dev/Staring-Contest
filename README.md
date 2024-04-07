@@ -178,7 +178,7 @@
 |                                |                            | 랭킹 조회                                      | Redis를 사용해 30분마다 랭크 업데이트                        |                                                              |                       |                                                 |
 ### 3. API 명세서
 
-| R대분류 | 주기능 | Mapping | Data | Request | Return |
+| 대분류 | 주기능 | Mapping | Data | Request | Return |
 |---|---|---|---|---|---|
 |유저|회원가입|POST|/api/user|{  <br>email: "gildong@gmail.com",  <br>password: "1234",  <br>nickname: "gildongnickname",  <br>profileImg: "2"  <br>}|{  <br>email: "gildong@gmail.com",  <br>}|
 ||로그인|POST|/api/auth/login|{  <br>email: "gildong@gmail.com",  <br>password: "1234"  <br>}|{  <br>email: "gildong@gmail.com,  <br>nickname: "gildongnickname",  <br>profileImg: 2,  <br>classic_pt: 50,  <br>item_pt: 235,  <br>winNumItem: 3,  <br>loseNumItem: 5,  <br>winNumClassic: 4,  <br>loseNumClassic: 7  <br>}|
