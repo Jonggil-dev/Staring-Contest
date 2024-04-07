@@ -262,19 +262,3 @@
 
 ### 게임 승리 후의 화면
 <img src="https://github.com/Jonggil-dev/Staring-Contest/assets/155353613/ba56bc12-3e2e-438c-b3fa-9312b903c709" width="30%" height="30%"/>
-
-
-
-
-
-# EC2 포팅 정보
-
-| **PORT** | **이름** |
-| :--: | :--: |
-| 443 | HTTPS |
-| 80 | HTTP - HTTPS로 리다이렉트(프론트 페이지지로 리다이렉트) |
-| 8443 | Openvidu |
-| 6379 | Redis |
-| 3306 | MySQL |
-| 8080 | Jenkins |
-| 8787 | Backend |
